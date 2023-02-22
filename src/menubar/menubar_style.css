@@ -1,0 +1,29 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+
+}
+
+li{
+    list-style: none;
+    transition: 0.25s;
+    border: #ffbe33;
+}
+
+li:hover{
+    color: #ffbe33;
+}
+
+#links-list{
+    text-decoration: none;
+    color: white;
+    transition: 0.24s;
+    font-family:sans-serif;
+}
+
+#links-list:hover{
+    color: #ffbe33;
+}
+

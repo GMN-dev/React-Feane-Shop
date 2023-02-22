@@ -1,0 +1,50 @@
+.cupomCard{
+    width: 545px;
+    background-color: #222831;
+    border-radius: 5px;
+    padding: 20px 15px;
+    display: flex;
+    overflow:auto;
+    color: white;
+    font-family: 'Dancing Script';
+}
+.nameCupom{
+    font-size: 24px;    
+    margin-bottom: 8px;
+}
+
+.infoCupom{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoDiscount{
+    margin-bottom: 8px;
+}
+
+.discount{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.imagePromo{
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    border-color: #ffbe33;
+    border-style:solid;
+    border-width:6px;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.imagePromo:hover img{
+    transform: scale(1.2);
+}
+
+.imagePromo img {
+    transition: 0.25s;
+}

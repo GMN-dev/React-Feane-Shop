@@ -1,0 +1,17 @@
+.container-order{    
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.container-order a{
+    transition: 0.20s;
+    color: white;
+}
+
+
+.container-order a:hover{
+    color: #ffbe33;
+}
+
