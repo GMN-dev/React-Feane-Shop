@@ -9,11 +9,11 @@ function MenuCard(props){
                 <img src={props.item.image} alt="" />
             </div>
             <div className="food-info">
-                <h4>{props.item.food}</h4>
-                <p>{props.item.description}</p>
+                <h5 className="food-title">{props.item.food}</h5>
+                <p className="description-item">{props.item.description}</p>
                 <div className="container-price">
-                    <h5>{props.item.price}$</h5>
-                    <div className="shop-cart-container"><a href=""><i className="fas fa-shopping-cart"></i></a></div>
+                    <h5 className="price">R${props.item.price}</h5>
+                    <a id='link-buy' href=""> <div className="shop-cart-container"><i className="fas fa-shopping-cart"></i></div></a>
                 </div>
             </div>
         </div>
