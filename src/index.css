@@ -2,7 +2,7 @@
 
 .container{
   margin: 0 auto;
-  max-width: 85vw; /* opcional: para definir a largura máxima do conteúdo */
+  max-width: 1100px; /* opcional: para definir a largura máxima do conteúdo */
 }
 
 
