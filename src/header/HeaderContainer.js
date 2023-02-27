@@ -6,15 +6,15 @@ import Order from "../order/order";
 
 function HeaderContainer(){
     return(
-        <header>
-            <div className="container">
+        <header className="container">
+            <div>
                 <Logo></Logo>
             </div>
-            <nav className="container">
+            <nav>
                 <Menubar links={['HOME', 'MENU','ABOUT','BOOK TABLE']}>
                 </Menubar>
             </nav>
-            <div className="container">
+            <div>
                 <Order></Order>
             </div>
         </header>

@@ -7,7 +7,7 @@ function CupomCard(props){
     return(
         <div className="cupomCard">
             <div className="imagePromo">
-                <img className="imgs-circle" src={props.infoCard.image}  alt="" />
+                <img className="imgs-circle" src={props.infoCard.image}  alt={props.infoCard.food} />
             </div>
             <div className="infoCupom">
                 <h5 className="nameCupom">{props.infoCard.food}</h5>

@@ -1,15 +1,9 @@
 header{
     display: flex;
-    /* justify-content: space-around; */
-    padding: 25px;
-    width: 100%;
-    
-}
-
-.container {
-    display: flex;
-    margin: 0 auto;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }

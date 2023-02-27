@@ -6,13 +6,13 @@ function MenuCard(props){
     return(
         <div className="container-menucard">
             <div className="food-img">
-                <img src={props.item.image} alt="" />
+                <img src={props.info.image} alt="" />
             </div>
             <div className="food-info">
-                <h5 className="food-title">{props.item.food}</h5>
-                <p className="description-item">{props.item.description}</p>
+                <h5 className="food-title">{props.info.food}</h5>
+                <p className="description-item">{props.info.description}</p>
                 <div className="container-price">
-                    <h5 className="price">R${props.item.price}</h5>
+                    <h5 className="price">R${props.info.price}</h5>
                     <a id='link-buy' href=""> <div className="shop-cart-container"><i className="fas fa-shopping-cart"></i></div></a>
                 </div>
             </div>

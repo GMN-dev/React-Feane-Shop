@@ -1,5 +1,6 @@
 .cupomCard{
-    width: 545px;
+    width: 510px;
+    /* max-width: 500px; */
     background-color: #222831;
     border-radius: 5px;
     padding: 20px 15px;
@@ -46,5 +47,6 @@
 }
 
 .imagePromo img {
+    width: 100%;
     transition: 0.25s;
 }

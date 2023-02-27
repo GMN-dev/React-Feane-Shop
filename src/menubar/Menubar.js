@@ -3,7 +3,7 @@ import './menubar_style.css'
 
 function Menubar(props){
     return(
-        <ul>
+        <ul className="list-menu" >
             {props.links.map((link, index)=>{
                 return(<li key={index}><a id="links-list" href="">{link}</a></li>);
             })}

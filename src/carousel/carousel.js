@@ -1,39 +1,25 @@
 import React from "react";
-import f1 from '../assets/images/f1.png'
-import './carousel_style.css'
-import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './carousel_style.css'  
+import { Slide } from "react-slideshow-image";
+import BannerItem from '../banner/banner'
 
-
-function Carousel() {
-    return (
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x400?text=Slide+1"
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x400?text=Slide+2"
-            alt="Second slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x400?text=Slide+3"
-            alt="Third slide"
-          />
-        </Carousel.Item>
-      </Carousel>
+function InfoCarousel(props) {
+  const listInfo = props.info
+  
+  return (
+      <>
+        <Slide>
+          {listInfo.map(
+            (item) => {
+              return(<BannerItem title={item.title} description={item.description}></ BannerItem>)
+            }
+          )}
+        </Slide>
+      </> 
     );
   }
   
 
 
-export default Carousel
+export default InfoCarousel
 
