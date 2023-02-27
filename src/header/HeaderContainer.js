@@ -8,7 +8,8 @@ function HeaderContainer(){
     return(
         <header className="container">
             <div>
-                <Logo></Logo>
+                <h1>asd</h1>
+                <Logo title="Feane"></Logo>
             </div>
             <nav>
                 <Menubar links={['HOME', 'MENU','ABOUT','BOOK TABLE']}>

@@ -1,9 +1,9 @@
 import React from "react";
 import './logo_style.css'
 
-function Logo(){
+function Logo(props){
     return(
-        <h1 className="logo"><a href="">Feane</a></h1>        
+        <h1 className="logo"><a href="">{props.title}</a></h1>        
     );
 }
 
