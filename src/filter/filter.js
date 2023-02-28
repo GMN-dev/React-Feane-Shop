@@ -5,7 +5,7 @@ import FilterButton from "./filter-btn";
 function Filter(props){
     return(
         <> 
-                <div className="container-filter">
+            <div className="container-filter">
                 <h2 className="menu-title">Our Menu</h2>
                 
 
