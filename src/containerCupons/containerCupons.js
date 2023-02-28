@@ -8,7 +8,7 @@ function ContainerCupons(props){
     return(
         <div className="container-cupons">
             <CupomCard infoCard = {{'image':img1, "food":"Pizza Discount", "discount":20}} ></CupomCard>            
-            <CupomCard infoCard = {{'image':img2, "food":"Big X Discount", "discount":20}} ></CupomCard>
+            <CupomCard infoCard = {{'image':img2, "food":"Big X Discount", "discount":10}} ></CupomCard>
         </div>
     );
 

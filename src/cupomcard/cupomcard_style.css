@@ -50,3 +50,16 @@
     width: 100%;
     transition: 0.25s;
 }
+
+
+@media screen and (max-width: 1017px){
+    .cupomCard{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .cupomCard{
+        width: fit-content;
+    }
+}

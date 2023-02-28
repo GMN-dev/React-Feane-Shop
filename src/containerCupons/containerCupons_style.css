@@ -1,9 +1,14 @@
 .container-cupons{
     /* background-color: black; */
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
 
+@media screen and (max-width: 1017px){
+    .container-cupons{
+        height: fit-content;
+    }
 }
