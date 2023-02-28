@@ -1,0 +1,47 @@
+.filters{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+.container-btn-filter{
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:'Open Sans';    
+    transition: 0.20s;
+}
+
+
+.container-btn-filter:hover{
+    color: white;
+    background-color: #222831;
+    /* transform: scale(1.1); */
+}
+
+/* .container-btn-filter:visited{
+    color: white;
+    background-color: #222831;
+
+} */
+
+
+.container-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.menu-title{
+    font-size: 40px;
+    font-family: 'Dancing Script'; 
+    margin-bottom: 45px;
+}
+
+

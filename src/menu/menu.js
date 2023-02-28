@@ -3,14 +3,15 @@ import MenuCard from '../menuCard/menuCard'
 import pratos from "../assets/bd";
 import './menu_style.css'
 import Logo from "../logo/logo";
-
+import Filter from "../filter/filter";
+import FilterButton from "../filter/filter-btn";
 
 function Menu(){
-  
-    console.log(pratos)
+    let options = ["All", "Burguer", "Pizza", "Fries", "Pasta"]
+   
     return(
         <div className="container-menu">
-            <Logo title="Feane"></Logo>
+            <Filter options={options}></Filter>
             <div className="grid-menu">
             {
                 pratos.map((prato) => {

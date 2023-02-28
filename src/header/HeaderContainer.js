@@ -8,7 +8,6 @@ function HeaderContainer(){
     return(
         <header className="container">
             <div>
-                <h1>asd</h1>
                 <Logo title="Feane"></Logo>
             </div>
             <nav>
