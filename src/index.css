@@ -12,5 +12,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
 
+#sectionFooter{
+  background-color: #222831;
+}
+
+.sectionAbout{
+  background-color: #222831;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

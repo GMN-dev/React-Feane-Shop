@@ -4,6 +4,8 @@ import HeaderContainer from './header/HeaderContainer';
 import ContainerCupons from './containerCupons/containerCupons';
 import Menu from './menu/menu';
 import MenuCard from './menuCard/menuCard';
+import Footer from './footer/footer';
+import About from './about/about';
 // import pratos from './assets/bd';
 
 
@@ -27,18 +29,29 @@ function App() {
           } */}
 
         </section>
-        <section id='sectionCupom'>
+        <main>
+          <section id='sectionCupom'>
+              <div className="container">
+                  <ContainerCupons></ContainerCupons>
+              </div>  
+          </section>
+          <section className='sectionMenu'>
+              <div className="container">
+                  <Menu></Menu>
+              </div>
+          </section>
+          <section className='sectionAbout'>
             <div className="container">
-                <ContainerCupons></ContainerCupons>
-            </div>  
-        </section>
-        <section className='sectionMenu'>
-            <div className="container">
-                <Menu></Menu>
+              <About></About>            
             </div>
+          </section>
+        </main>
+
+        <section id='sectionFooter'>
+          <div className='container'>
+            <Footer></Footer>
+          </div>
         </section>
-          
-        
     </div>
   );
 }

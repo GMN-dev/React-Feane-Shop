@@ -1,0 +1,56 @@
+footer{
+    margin-top: 70px;
+    padding-top: 75px;
+    padding-bottom: 45px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    font-family: 'Open Sans';
+}
+
+.footer-title{
+    font-size: 38px;
+    font-family: 'Dancing Script'; 
+    margin-bottom: 20px;
+}
+
+.box-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 75px;     */
+}
+
+.box-footer a, p{
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+
+.social-midias{
+    margin-top: 15px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-midia{
+    background-color: white;   
+    padding: 10px 12px;
+    border-radius: 50%;
+
+}
+
+.container-midia i{
+    transition: 0.25s;
+    color: #222831;
+    font-size: 16px;
+}
+
+.container-midia i:hover{
+    color: #FFBE33;
+}

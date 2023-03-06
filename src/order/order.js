@@ -1,6 +1,5 @@
 import React from "react";
 import ButtonOrder from "../btn_order/btn_order";
-import '@fortawesome/fontawesome-free/css/all.min.css';
 import './order_style.css'
 
 

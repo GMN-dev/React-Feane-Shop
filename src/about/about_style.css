@@ -1,0 +1,31 @@
+.container-about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.about-title{
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    width: fit-content;
+}
+
+.about-p{
+    font-family: "Open sans";
+    width: 90%;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#burguer{
+    max-height: 607px;   
+}
+
+.container-about-p{
+    width: 300px
+} 
