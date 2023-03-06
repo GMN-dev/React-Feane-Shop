@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import FilterButton from "./filter-btn";
 
 
 function Filter(props){
+
+    let [fil, setFilter] = useState('')
+
     return(
         <> 
             <div className="container-filter">

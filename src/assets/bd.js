@@ -12,58 +12,67 @@ import f9 from '../assets/images/f9.png'
 let pratos = [
     {
     "image":f1,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'pizza'
     },
     {
     "image":f2,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'burguer'
     },
     {
     "image":f3,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'pizza'
     },
     {
     "image":f4,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'pasta'
     },
     {
     "image":f5,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'fries'
     },
     {
     "image":f6,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'pizza'
     },
     {
     "image":f7,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'burguer'
     },
     {
     "image":f8,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'burguer'
     },
     {
     "image":f9,
-    "food":"Pizza de Champignon",
-    "description":"asd.haskjd hLAKSJDH lkajshd lkJHLKJH LKJASHFLJKASF k jsdfhkjshdsdkjfh fsd fjlsdkjdsf",
+    "food":"Lorem Ipsum",
+    "description":"It has survived not only five centuries, but also the leap into electronic typesetting",
     "price":20,
+    "tag": 'pasta'
     },
 ]
 
-export default pratos
+export default pratos 
