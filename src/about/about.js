@@ -6,18 +6,16 @@ import './about_style.css'
 
 function About(){
     return(
-        <>
-            <aside className="container-about">
-                <div className="img-burguer">
-                    <img id="burguer" src={bImg} alt="" />
-                </div>
-                <div className="container-about-p">
-                    <h2 className="about-title">We are Feane</h2>
-                    <p className="about-p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
-                    <ButtonOrder></ButtonOrder>
-                </div>
-            </aside>
-        </>
+        <aside className="container-about">
+            <div className="img-burguer">
+                <img id="burguer" src={bImg} alt="" />
+            </div>
+            <div className="container-about-p">
+                <h2 className="about-title">We are Feane</h2>
+                <p className="about-p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
+                <ButtonOrder></ButtonOrder>
+            </div>
+        </aside>
     );
 }
 

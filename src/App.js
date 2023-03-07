@@ -41,9 +41,9 @@ function App() {
               </div>
           </section>
           <section className='sectionAbout'>
-            <div className="container">
-              <About></About>            
-            </div>
+              <div className="container">
+                  <About></About>
+              </div>
           </section>
         </main>
 
