@@ -4,14 +4,12 @@ import FilterButton from "./filter-btn";
 
 function Filter(props){
 
-    let [fil, setFilter] = useState('')
+
 
     return(
         <> 
             <div className="container-filter">
                 <h2 className="menu-title">Our Menu</h2>
-                
-
                 <div className="filters">
                 {props.options.map(
                     (opt) => {

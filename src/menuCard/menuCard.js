@@ -9,7 +9,7 @@ function MenuCard(props){
                 <img src={props.info.image} alt="" />
             </div>
             <div className="food-info">
-                <h5 className="food-title">{props.info.food}</h5>
+                <h5 className="food-title">{props.info.name}</h5>
                 <p className="description-item">{props.info.description}</p>
                 <div className="container-price">
                     <h5 className="price">R${props.info.price}</h5>
