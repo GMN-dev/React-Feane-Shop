@@ -3,10 +3,10 @@ import './App.css';
 import HeaderContainer from './header/HeaderContainer';
 import ContainerCupons from './containerCupons/containerCupons';
 import Menu from './menu/menu';
-import MenuCard from './menuCard/menuCard';
 import Footer from './footer/footer';
 import About from './about/about';
-// import pratos from './assets/bd';
+import HomeSlider from './carousel/carousel';
+import BannerItem from './banner/banner';
 
 
 let info=[{'title':'Nova pizza de prestigio', 'description':'Pizza com base e doce e muito mas muito leite condensado'},{'title':'Novidade! Sodas Italianas', 'description':'Sodas italianas dos mais diversos sabores'}]
@@ -17,16 +17,8 @@ function App() {
     <div className="App">
         <section id='sectionHeader'>
           <HeaderContainer></HeaderContainer>
-          {/* <CupomCard infoCard={{'food':'Pizza Days', 'discount':20, "ima  ge":o2}}></CupomCard> */}
-          {/* <InfoCarousel info={[{'title':'Nova pizza de prestigio', 'description':'Pizza com base e doce e muito mas muito leite condensado'},{'title':'Novidade! Sodas Italianas', 'description':'Sodas italianas dos mais diversos sabores'}]} ></InfoCarousel> */}
-
-          {/* {
-            info.map((item) => {
-              return(
-                <BannerItem title={item.title} description={item.description}></BannerItem>    
-              )
-            })
-          } */}
+          <HomeSlider info={info} ></HomeSlider>
+          
 
         </section>
         <main>

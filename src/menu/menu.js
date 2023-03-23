@@ -7,12 +7,20 @@ import Loading from "../loading/loading";
 
 function Menu(){
 
-    let url = 'http://127.0.0.1:8000/api/menu/'
-    let options = ["All", "Burguer", "Pizza", "Fries", "Pasta"]
+    let urlMenu = 'http://127.0.0.1:8000/api/menu/'
+    let urlFilter = 'http://127.0.0.1:8000/api/tag/'
+    let [apiFilter, setApiFilter] = useState()
     let [apiMenu, setApiMenu] = useState()
 
     useEffect(()=>{
-        fetch(url)
+        fetch(urlFilter)
+        .then((resp)=>{return resp.json()})
+        .then((data)=>{setApiFilter(data)})
+    }, [])
+
+
+    useEffect(()=>{
+        fetch(urlMenu)
         .then((response) => {
                 return response.json();
             })
@@ -20,7 +28,6 @@ function Menu(){
                 setApiMenu(data)
             });
     }, [])
-
 
 
     if (!apiMenu) {
@@ -33,7 +40,7 @@ function Menu(){
 
     return(
         <div className="container-menu">
-            <Filter options={options}></Filter>
+            <Filter options={apiFilter}></Filter>
             <div className="grid-menu">
             {
                 apiMenu.map((obj)=><MenuCard info={obj}></MenuCard>)

@@ -1,25 +1,38 @@
 import React from "react";
 import './carousel_style.css'  
-import { Slide } from "react-slideshow-image";
 import BannerItem from '../banner/banner'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from "swiper";
+// Import Swiper styles
+import 'swiper/css';
 
-function InfoCarousel(props) {
-  const listInfo = props.info
+function HomeSlider(props) {
   
   return (
       <>
-        <Slide>
-          {listInfo.map(
-            (item) => {
-              return(<BannerItem title={item.title} description={item.description}></ BannerItem>)
+      <div className="container-home-slider">  
+          <Swiper 
+          loop={true}
+          centeredSlides={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}>
+
+          {
+            props.info.map(
+            (item)=>{
+            return <SwiperSlide> <BannerItem title={item.title} description={item.description}></ BannerItem></SwiperSlide>
             }
-          )}
-        </Slide>
-      </> 
-    );
+            )
+          }
+          </Swiper>
+        </div>
+      </> )
   }
   
 
 
-export default InfoCarousel
+export default HomeSlider
 

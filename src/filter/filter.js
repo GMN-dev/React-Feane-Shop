@@ -3,9 +3,6 @@ import FilterButton from "./filter-btn";
 
 
 function Filter(props){
-
-
-
     return(
         <> 
             <div className="container-filter">
@@ -14,10 +11,11 @@ function Filter(props){
                 {props.options.map(
                     (opt) => {
                         return(
-                            <FilterButton title={opt}></FilterButton>
-                        )
-                    }
-                )}
+                            <FilterButton title={opt.tag}></FilterButton>
+                            )
+                        } 
+                    )
+                }
                 </div>
             </div>
         </>

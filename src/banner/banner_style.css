@@ -2,16 +2,25 @@
     /* background-color: blanchedalmond; */
     color: white;
     width: 100vw;
+    margin-top: 32px;
+}   
+
+.heigh-slider{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .banner-title{
     font-size: 3.5rem;
     font-weight: bold;
-    margin-bottom: 15px;
     font-family: 'Dancing Script';   
 }
 
 .banner-description{
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
+    width: 40%;
+    
 }

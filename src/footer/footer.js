@@ -17,9 +17,9 @@ function Footer(){
                 <p>© 2023 All Rights Reserved By Free Html Templates</p>
                 <p>© Distributed By ThemeWagon</p>
                 <div className="social-midias">
-                    <a href="" className="container-midia"><div ><i class="fa-brands fa-instagram"></i></div></a>
-                    <a href="" className="container-midia"><div ><i class="fa-brands fa-linkedin-in"></i></div></a>
-                    <a href="" className="container-midia"><div ><i class="fa-brands fa-github"></i></div></a>
+                    <a href="https://www.instagram.com/magalhaes.dev/" className="container-midia"><div ><i class="fa-brands fa-instagram"></i></div></a>
+                    <a href="https://www.linkedin.com/in/gabriel-magalh%C3%A3es-b98a341ab/" className="container-midia"><div ><i class="fa-brands fa-linkedin-in"></i></div></a>
+                    <a href="https://github.com/GMN-dev" className="container-midia"><div ><i class="fa-brands fa-github"></i></div></a>
                 </div>
             </div>
             <div className="box-footer" id="f-section3">
