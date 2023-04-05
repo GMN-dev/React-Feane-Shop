@@ -6,7 +6,7 @@ import Menu from './menu/menu';
 import Footer from './footer/footer';
 import About from './about/about';
 import HomeSlider from './carousel/carousel';
-import BannerItem from './banner/banner';
+
 
 
 let info=[{'title':'Nova pizza de prestigio', 'description':'Pizza com base e doce e muito mas muito leite condensado'},{'title':'Novidade! Sodas Italianas', 'description':'Sodas italianas dos mais diversos sabores'}]
@@ -18,8 +18,6 @@ function App() {
         <section id='sectionHeader'>
           <HeaderContainer></HeaderContainer>
           <HomeSlider info={info} ></HomeSlider>
-          
-
         </section>
         <main>
           <section id='sectionCupom'>

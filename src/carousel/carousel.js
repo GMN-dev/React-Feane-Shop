@@ -3,7 +3,6 @@ import './carousel_style.css'
 import BannerItem from '../banner/banner'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper";
-// Import Swiper styles
 import 'swiper/css';
 
 function HomeSlider(props) {
@@ -15,7 +14,7 @@ function HomeSlider(props) {
           loop={true}
           centeredSlides={true}
           autoplay={{
-            delay: 5000,
+            delay: 4100,
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}>
