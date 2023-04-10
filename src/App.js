@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import HeaderContainer from './header/HeaderContainer';
 import ContainerCupons from './containerCupons/containerCupons';
@@ -12,19 +12,15 @@ import HomeSlider from './carousel/carousel';
 let info=[{'title':'Nova pizza de prestigio', 'description':'Pizza com base e doce e muito mas muito leite condensado'},{'title':'Novidade! Sodas Italianas', 'description':'Sodas italianas dos mais diversos sabores'}]
 
 
+
 function App() {
   return (
     <div className="App">
         <section id='sectionHeader'>
           <HeaderContainer></HeaderContainer>
-          <HomeSlider info={info} ></HomeSlider>
+          <HomeSlider info={info}></HomeSlider>
         </section>
         <main>
-          <section id='sectionCupom'>
-              <div className="container">
-                  <ContainerCupons></ContainerCupons>
-              </div>  
-          </section>
           <section className='sectionMenu'>
               <div className="container">
                   <Menu></Menu>
@@ -34,6 +30,11 @@ function App() {
               <div className="container">
                   <About></About>
               </div>
+          </section>
+          <section id='sectionCupom'>
+              <div className="container">
+                  <ContainerCupons></ContainerCupons>
+              </div>  
           </section>
         </main>
 
@@ -45,5 +46,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

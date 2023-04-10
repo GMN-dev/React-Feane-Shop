@@ -7,6 +7,7 @@
     color: white;
     border-radius: 15px;
     margin: 6px;
+    
 }
 
 
@@ -19,6 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .food-img img{
@@ -26,6 +28,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 0.26s;
+    
 }
 
 .food-img img:hover{

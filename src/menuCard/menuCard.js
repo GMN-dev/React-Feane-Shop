@@ -22,4 +22,4 @@ function MenuCard(props){
 }
 
 
-export default MenuCard
+export default MenuCard 
