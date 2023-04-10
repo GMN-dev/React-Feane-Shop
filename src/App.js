@@ -21,17 +21,17 @@ function App() {
           <HomeSlider info={info}></HomeSlider>
         </section>
         <main>
-          <section className='sectionMenu'>
+          <section id='menu' className='sectionMenu'>
               <div className="container">
                   <Menu></Menu>
               </div>
           </section>
-          <section className='sectionAbout'>
+          <section id='sobre' className='sectionAbout'>
               <div className="container">
                   <About></About>
               </div>
           </section>
-          <section id='sectionCupom'>
+          <section id='promo'>
               <div className="container">
                   <ContainerCupons></ContainerCupons>
               </div>  

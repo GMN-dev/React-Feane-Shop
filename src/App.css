@@ -43,6 +43,11 @@
 }
 
 
+html {
+  scroll-behavior:smooth;
+}
+
+
 @keyframes slide-in {
   0%{ 
       transform: translateX(-10px) ;

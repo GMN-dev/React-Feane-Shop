@@ -63,7 +63,7 @@ function Menu(){
                             return(
                                 // <FilterButton title={opt.name}></FilterButton>
                                 <div className="container-btn-filter" onClick={()=> configText(opt.name)}> <span>{opt.name} </span></div>
-                                )
+                                ) 
                             } 
                         )
                     }

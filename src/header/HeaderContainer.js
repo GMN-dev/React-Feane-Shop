@@ -11,7 +11,7 @@ function HeaderContainer(){
                 <Logo title="Feane"></Logo>
             </div>
             <nav>
-                <Menubar links={['HOME', 'MENU','ABOUT','BOOK TABLE']}>
+                <Menubar>
                 </Menubar>
             </nav>
             <div>
