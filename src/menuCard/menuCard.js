@@ -4,7 +4,7 @@ import './menuCard_style.css'
 
 function MenuCard(props){
     return(
-        <div className="container-menucard">
+        <div className="container-menucard" >
             <div className="food-img">
                 <img src={props.info.image} alt="" />
             </div>

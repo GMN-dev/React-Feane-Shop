@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ButtonOrder from "../btn_order/btn_order";
 import './cupomcard_style.css'
 
 
 function CupomCard(props){
+
     return(
-        <div className="cupomCard">
+        <div className="cupomCard" >
             <div className="imagePromo">
                 <img className="imgs-circle" src={props.infoCard.image}  alt={props.infoCard.food} />
             </div>

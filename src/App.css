@@ -6,11 +6,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
 
-
-.container{
+/* .container{
   margin: 0 auto;
-  max-width: 1170px; /* opcional: para definir a largura máxima do conteúdo */
-}
+  max-width: 1170px;
+}  */
+
 
 #sectionHeader{
   background-image: url('/src/assets/images/hero-bg.jpg'); 

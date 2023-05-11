@@ -9,7 +9,7 @@ function HomeSlider(props) {
   
   return (
       <>
-      <div className="container-home-slider">  
+      <div>  
           <Swiper 
           loop={true}
           centeredSlides={true}
