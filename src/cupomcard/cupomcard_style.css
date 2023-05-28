@@ -1,5 +1,5 @@
 .cupomCard{
-    width: 510px;
+    width: 500px;
     /* max-width: 500px; */
     background-color: #222831;
     border-radius: 5px;
@@ -52,14 +52,20 @@
 }
 
 
-@media screen and (max-width: 1017px){
-    .cupomCard{
-        margin-top: 60px;
-    }
-}
 
-@media screen and (max-width: 510px){
+@media  (max-width: 526px){
     .cupomCard{
-        width: fit-content;
+        margin: 7px;
+        width: 90vw;
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        text-align: center;
     }
+    .infoCupom{
+        margin-left: 0px;
+    }
+
+    
 }

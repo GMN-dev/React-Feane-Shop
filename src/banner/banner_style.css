@@ -3,10 +3,11 @@
     color: white;
     width: 100vw;
     margin-top: 32px;
+    
 }   
 
 .heigh-slider{
-    height: 40vh;
+    height: 43vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

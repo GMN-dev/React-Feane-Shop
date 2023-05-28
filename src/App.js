@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 
 let info=[{'title':'Nova pizza de prestigio', 'description':'Pizza com base e doce e muito mas muito leite condensado'},{'title':'Novidade! Sodas Italianas', 'description':'Sodas italianas dos mais diversos sabores'}]
 
-Aos.init({delay: 550, duration: 800})
+Aos.init({delay: 450, duration: 800})
 
 function App() {
   return (
@@ -34,16 +34,14 @@ function App() {
               </div>
           </section>
           <section id='promo'>
-              <div className="container" data-aos="fade-up">
+              <div className="" data-aos="fade-up">
                   <ContainerCupons></ContainerCupons>
               </div>  
           </section>
         </main>
 
         <section id='sectionFooter'>
-          <div className='container'>
             <Footer></Footer>
-          </div>
         </section>
     </div>
   );
