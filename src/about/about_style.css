@@ -32,3 +32,16 @@
     font-family: 'Open Sans';
 }
 
+@media screen and (max-width: 1276px){
+    .container-about{
+        flex-direction: column-reverse;
+    }
+    #burguer{
+        margin-top: 35px;
+        width: 350px;
+    }
+    .container-about-p{
+        padding: 15px;
+    }
+
+}

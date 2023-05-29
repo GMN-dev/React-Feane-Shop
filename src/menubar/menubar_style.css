@@ -27,3 +27,9 @@ li:hover{
     color: #ffbe33;
 }
 
+@media screen and (max-width: 1040px) {
+
+    ul{    
+        display:none;
+    }   
+}

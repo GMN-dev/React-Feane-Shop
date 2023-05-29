@@ -1,22 +1,20 @@
 import React from "react";
-import Menubar from "../menubar/Menubar";
 import Logo from "../logo/logo";
 import './header_style.css'
+import MenuHamburguer from "../menuHamburguer/menuHamburguer";
+import NavBar from "../navBar/navBar";
+import Menubar from "../menubar/Menubar";
 import Order from "../order/order";
 
 function HeaderContainer(){
     return(
-        <header className="container">
+        <header >
             <div>
                 <Logo title="Feane"></Logo>
             </div>
-            <nav>
-                <Menubar>
-                </Menubar>
-            </nav>
-            <div>
-                <Order></Order>
-            </div>
+            <Menubar></Menubar>
+            <Order></Order>
+            <MenuHamburguer></MenuHamburguer>
         </header>
     );
 }

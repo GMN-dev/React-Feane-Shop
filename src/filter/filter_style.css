@@ -14,13 +14,14 @@
     border-radius: 25px;
     font-family:'Open Sans';    
     transition: 0.20s;
+    color: #222831;
 }
 
 
 .container-btn-filter:hover{
     color: white;
     background-color: #222831;
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
 }
 
 /* .container-btn-filter:visited{
@@ -43,6 +44,7 @@
     font-size: 40px;
     font-family: 'Dancing Script'; 
     margin-bottom: 45px;
+    color: #222831;
 }
 
 .active-filter{

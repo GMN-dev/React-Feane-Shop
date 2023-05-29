@@ -1,0 +1,19 @@
+#hamburguer-icon{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    padding: 5px;
+    background-color: red;    
+}
+
+#menu{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1040px) {
+    #hamburguer-icon{
+        display: block;
+    }    
+}

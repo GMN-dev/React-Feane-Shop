@@ -1,6 +1,6 @@
 .container-cupons{
     /* background-color: black; */
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -10,6 +10,6 @@
 @media screen and (max-width: 526px){
     .container-cupons{
         height: max-content;
+        padding: 21px 0;
     }   
-    
 }

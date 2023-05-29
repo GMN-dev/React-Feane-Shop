@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 
 let info=[{'title':'Nova pizza de prestigio', 'description':'Pizza com base e doce e muito mas muito leite condensado'},{'title':'Novidade! Sodas Italianas', 'description':'Sodas italianas dos mais diversos sabores'}]
 
-Aos.init({delay: 450, duration: 800})
+Aos.init({delay: 390, duration: 800})
 
 function App() {
   return (

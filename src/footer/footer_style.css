@@ -13,7 +13,7 @@ footer{
 .footer-title{
     font-size: 38px;
     font-family: 'Dancing Script'; 
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .box-footer{
@@ -54,7 +54,7 @@ footer{
     color: #FFBE33;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
     footer{
         width: 100vw;
         flex-direction: column;
