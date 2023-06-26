@@ -1,19 +1,24 @@
-#hamburguer-icon{
-    display: none;
+.hamburguer-icon{
     cursor: pointer;
-}
-
-.bar{
-    padding: 5px;
-    background-color: red;    
+    display: none;
+    background-color: #222831f8;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3; */
 }
 
 #menu{
     color: #ffffff;
 }
 
+
+.inactive{
+    display: none;    
+}
+
 @media screen and (max-width: 1040px) {
-    #hamburguer-icon{
+    .hamburguer-icon{
         display: block;
     }    
 }

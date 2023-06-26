@@ -1,0 +1,13 @@
+.menu-hamburguer-extend{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;   
+    padding: 14px;
+    background-color: #222831f5;
+    position: fixed;
+    top: calc(8vh);
+    right: 0;
+    z-index: 6;
+}
+

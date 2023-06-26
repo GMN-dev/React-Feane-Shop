@@ -2,8 +2,9 @@
     /* background-color: blanchedalmond; */
     color: white;
     width: 100vw;
-    margin-top: 32px;
-    
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }   
 
 .heigh-slider{
@@ -14,14 +15,33 @@
 }
 
 .banner-title{
-    font-size: 3.5rem;
+    font-size: 100px;
     font-weight: bold;
     font-family: 'Dancing Script';   
+    margin-bottom: 7px;
 }
 
 .banner-description{
-    font-size: 14px;
+    font-size: 25px;
     font-family: "Open Sans", sans-serif;
-    width: 40%;
-    
+    width: 55%;
+    margin-bottom: 28px;    
 }
+
+
+@media screen and (max-width: 1040px) {
+    .heigh-slider{
+        height: 50vh;
+    }
+    
+    .banner-description{
+        width: 65%;
+        font-size: 21px;
+
+    }
+
+    .banner-title{
+        font-size: 70px;
+    }
+}
+

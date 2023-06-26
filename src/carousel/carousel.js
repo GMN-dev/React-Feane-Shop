@@ -6,7 +6,6 @@ import { Autoplay } from "swiper";
 import 'swiper/css';
 
 function HomeSlider(props) {
-  
   return (
       <>
       <div>  

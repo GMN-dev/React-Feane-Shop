@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import '../menuHamburguer/menuHamburguer.css'
 
-export default function MenuHamburguer(){
-    return(
-        // <div className="containerMenuHamburguer">    
-            <div id="hamburguer-icon">
-                <i id="menu" className="fa-solid fa-bars fa-2xl" ></i>
-            </div>  
-    );
+export default function MenuHamburguer(props){
 
+    return(
+        <div className="hamburguer-icon"> 
+            <i onClick={()=>{props.activeMenu()}} id="menu" className={props.active === false ? 'fa-solid fa-bars fa-2xl' : 'fa-solid fa-xmark fa-2xl'} ></i>
+        </div>  
+    );
 }
