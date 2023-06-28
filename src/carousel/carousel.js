@@ -22,7 +22,7 @@ function HomeSlider(props) {
             props.info.map(
             (item)=>{
             return <SwiperSlide> <BannerItem title={item.title} description={item.description}></ BannerItem></SwiperSlide>
-            }
+              }
             )
           }
           </Swiper>

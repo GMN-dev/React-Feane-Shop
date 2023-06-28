@@ -10,10 +10,8 @@ function Menu(){
     let urlMenu = 'http://127.0.0.1:8000/api/menu/'
     let [apiMenu, setApiMenu] = useState()
     let [currentCards, setCurrentCards] = useState()
-
-
     
-    useEffect(()=>{
+    useEffect(()=>{ 
         fetch(urlMenu)
         .then((response) => { return response.json();})
         .then((data) => { 
@@ -28,8 +26,6 @@ function Menu(){
     }, [])
 
 
-
-
     if (!apiMenu) {
         return (<>
             <Loading></Loading>
@@ -37,28 +33,24 @@ function Menu(){
     }
 
 
-
     function configMenuCards(filter){
         let newCards = filter === '' ? apiMenu : apiMenu.filter((element) => {return element.tag.name == filter});
         setCurrentCards(newCards);
     }
-
-
 
     return(
         <div className="container-menu" data-aos="fade-up">
             <div className="container-filter">
                 <h2 className="menu-title">Our Menu</h2>
                 <div className="filters" >
-
                     <div className="container-btn-filter" onClick={()=> configMenuCards('')}> <span>Todos</span></div>
                     {apiFilter.map(
                         (opt) => {
                             return(
                                 // <FilterButton title={opt.name}></FilterButton>
-                                <div className="container-btn-filter" onClick={()=> configMenuCards(opt.name)}> <span>{opt.name} </span></div>
+                                <div className="container-btn-filter"  onClick={()=> configMenuCards(opt.name)}> <span>{opt.name} </span></div>
                                 ) 
-                            } 
+                            }
                         )
                     }
                     </div>

@@ -1,16 +1,15 @@
-import React from "react";
+import React, { useContext } from 'react';
 import Logo from "../logo/logo";
 import './header_style.css'
 import MenuHamburguer from "../menuHamburguer/menuHamburguer";
 import MenuDropdown from '../menuDropdown/menuDropdown'
 import Menubar from "../menubar/Menubar";
 import Order from "../order/order";
-import { useState } from "react";
-
+import { context } from "../contextProvider";
 
 function HeaderContainer(){
 
-    let [active, setActive] = useState(false);
+    let {active, setActive} = useContext(context);
 
     const activeMenu = () => {
         setActive(!active);
