@@ -7,7 +7,8 @@ export function ProviderContext(props){
     let [active, setActive] = useState(false);
     
     let contextValues = {
-        active, setActive
+        active, 
+        setActive
     }
 
     return (

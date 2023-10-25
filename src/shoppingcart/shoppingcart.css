@@ -1,0 +1,29 @@
+.shoppingcart-items{
+    width: 270px;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    border: solid 2px #FDB926  ;
+    border-top: 0;
+    top: 40px;
+    left: -131px;
+}
+
+#shoppingcart-container{
+    position: relative;
+}
+
+.shoppingcart-disabled{
+    display: none;
+}
+
+.style-shoppingcart{
+    color: white;
+    transition: 0.25s;
+    cursor:pointer;
+}
+
+.style-shoppingcart:hover{
+    color: #FDB926;
+
+}

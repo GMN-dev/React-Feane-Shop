@@ -6,21 +6,29 @@
     justify-content: space-between;
 }   
 
-
 .container-order a{
     transition: 0.20s;
     color: white;
 }
 
-
 .container-order a:hover{
     color: #ffbe33;
 }
-
 
 @media screen and (max-width: 1040px) {
 
     .container-order{    
         display:none;
-    }   
+    }
+    .container-order-mobile{
+        display: flex;
+        width: 80vw;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .container-order-mobile a{
+        color: white;
+    }
+
 }
+
